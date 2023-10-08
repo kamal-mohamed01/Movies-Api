@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
-
+import img from "../../assets/imgs/th (1).jpeg"
 export default function Navbar() {
     return <>
     
     <nav className="navbar bg-light navbar-expand-lg bg-body-tertiary">
   <div className="container-fluid">
-    <Link className="navbar-brand" to="">Movies Api</Link>
+    <Link className="navbar-brand" to=""><img src={img} alt="Movie Logo" /></Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
